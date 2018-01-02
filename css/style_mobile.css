@@ -1,0 +1,435 @@
+html,body,.wrapper{
+    width: 100%;
+    /*height: 935px;*/
+    box-sizing:border-box;
+    overflow-x:hidden;
+    /*height: 100%;*/
+}
+.header{
+    height:0.88rem;
+    line-height:0.88rem;
+    background: #333335;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 10%;
+    position: relative;
+}
+.header .headerLogo{
+    /*position: absolute;*/
+    /*top:-0.4rem;*/
+    /*left: 2rem;*/
+    display: inline-block;
+    width: 0.55rem;
+    height:0.65rem;
+    margin-right: 0.40rem;
+    padding-bottom: .12rem;
+}
+.header .tab{
+    display: inline-block;
+    /*position: absolute;*/
+    /*top:0.6rem;*/
+    /*left: 4rem;*/
+    /*width: 80%;*/
+    margin-right: 28%;
+}
+.header .tab li{
+    float: left;
+    color: #66ffffff;
+    font-size: 0.2rem;
+    /*width: 8%;*/
+    margin-right: .50rem;
+}
+.header .tab li.select{
+    font-size: 0.2rem;
+}
+.header .fontTab{
+    display: inline-block;
+    height: .88rem;
+    position: absolute;
+    top:.15rem;
+}
+.header .fontTab .lineWhite{
+    display: inline-block;
+    width: 2px;
+    height:.36rem;
+    opacity:0.3;
+    filter:alpha(opacity=30);
+    background: #ffffff;
+}
+.header .fontTab ul{
+    margin-left: .30rem;
+    display: inline-block;
+}
+.header .fontTab li{
+    float: left;
+    color: #ffffff;
+    font-size: 0.16rem;
+    /*width: 8%;*/
+    margin-right: .20rem;
+    line-height: .30rem;
+}
+.header .fontTab li.select{
+    font-size: 0.16rem;
+}
+.content{
+    /*height: 100%;*/
+    /*height:935px;*/
+}
+.firstP,.secondP,.thirdP,.fourthP,.fifthP,.footer{
+    /*height: 935px;*/
+}
+.firstP{
+    /*height: 100%;*/
+    /*
+        /!*Firefox*!/
+    height: -moz-calc(100%-88px);
+        /!*chrome safari*!/
+    height: -webkit-calc(100%-88px);
+        /!*Standard *!/
+    height: calc(100%-88px);
+    */
+    height: 935px;
+    padding-top: 0.66rem;
+    background:url(../img/bg01.jpg) no-repeat center bottom;
+}
+.firstP .tible{
+    width:3.68rem;
+    height:1.5rem;
+    margin: 0.2rem auto;
+}
+
+.firstP .tible img{
+    width:100%;
+    height:100%;
+}
+
+.firstP .title{
+    font-family:'свт╡';
+    font-size: 0.24rem;
+    color:#010204;
+    margin:0 auto;
+    width: 50%;
+    text-align: center;
+}
+.secondP{
+    height: 650px;
+    background: #333335;
+    position: relative;
+}
+.secondP .title{
+    position: absolute;
+    top:8%;
+    left: 50%;
+    width: 20%;
+    text-align: center;
+    margin-left: -10%;
+    font-size: .40rem;
+    line-height: 1.06rem;
+    color: #ffffff;
+}
+.secondP .imgLink{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    width: 50%;
+    text-align: center;
+    margin-left: -25%;
+
+}
+.secondP .imgLink a{
+    display: inline-block;
+    margin: 0 5px;
+}
+.secondP .imgLink img{
+    display: inline-block;
+    width: 1.60rem;
+    height:.60rem;
+}
+.secondP img.contentImg{
+    position: absolute;
+    top:36%;
+    left: 50%;
+    width: 11.90rem;
+    height: 4.42rem;
+    margin-left: -5.95rem;
+    /*
+    width: 11.90rem;
+    height: 6.74rem;
+    margin-top: -3.37rem;
+    margin-left: -5.95rem;
+    */
+}
+.thirdP{
+    height: 6.80rem;
+    background: #ffffff;
+    position: relative;
+}
+.thirdP .title{
+    position: absolute;
+    top:10%;
+    left: 50%;
+    width: 20%;
+    margin-left: -10%;
+    font-size: .40rem;
+    line-height: .60rem;
+    color: #010204;
+    text-align: center;
+}
+.thirdP img.titleImg{
+    position: absolute;
+    top:20%;
+    left: 50%;
+    width: 3.92rem;
+    height: .21rem;
+    margin-left: -1.96rem;
+}
+.thirdP img.contentImg{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    width: 11.90rem;
+    height: 2.89rem;
+    margin-left: -5.95rem;
+    /*
+    width: 11.90rem;
+    height: 4.92rem;
+    margin-top: -2.46rem;
+    margin-left: -5.95rem;
+    */
+}
+.thirdP .dateList{
+    width: 11.90rem;
+    height:1.99rem;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left:-5.95rem;
+    margin-top:-0.995rem ;
+    background:url(../img/course.png) no-repeat;
+    background-size:cover;
+}
+.thirdP .dateList li{
+    position: absolute;
+}
+.thirdP .dateList li .title{
+    color: #333;
+    font-size: 0.16rem;
+    width: 4rem;
+}
+.thirdP .dateList li .date{
+    font-size: 0.14rem;
+    width: 2rem;
+    font-weight: bold;
+    margin:0.3rem 0;
+}
+.thirdP .dateList .date1{
+    color: #5999d6;
+    top:0.11rem;
+    left: 0.1rem;
+}
+.thirdP .dateList .date{
+
+}
+.thirdP .dateList .title{
+
+}
+.fourthP{
+    height: 600px;
+    position: relative;
+    background:url(../img/bg03.jpg) no-repeat center bottom;
+}
+.fourthP .fontCont{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    width: 40%;
+    margin-left: -20%;
+    font-family: MicrosofYaHeiLight;
+    font-size: 0.2rem;
+    color:#fff;
+    text-align: left;
+    line-height:0.5rem;
+
+}
+.fourthP .downBtn{
+    cursor: pointer;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    width: 4.09rem;
+    height:0.67rem;
+    line-height:0.67rem;
+    margin-left: -2.045rem;
+    margin-top: -.335rem;
+    border-radius: .33rem;
+    background: #c08724;
+    font-family: MicrosofYaHei-Bold;
+    font-size: 0.3rem;
+    color:#fff;
+    text-align: center;
+}
+.fifthP{
+    height: 750px;
+    position: relative;
+}
+.fifthP .groupName li{
+    font-size: 0.34rem;
+}
+.fifthP .topList li,.fifthP .bottomList li{
+    width: 2.3rem;
+}
+.fifthP .name{
+    font-size: 0.16rem;
+    color:#010204;
+    text-align: center;
+    font-weight: bold;
+}
+.fifthP .intro{
+    font-size: 0.16rem;
+    color:#010204;
+    line-height: 0.3rem;
+}
+
+.fifthP .topList{
+    /*position:absolute;*/
+    /*top:2rem;*/
+    /*left: 2rem;*/
+}
+.fifthP .topList li{
+    position: absolute;
+    top:-1.5rem;
+    width: 2.18rem;
+}
+
+.fifthP .midPhoto{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    width: 11.90rem;
+    height:4.31rem;
+    margin-left: -5.95rem;
+    margin-top: -2.155rem;
+    background:url(../img/team.png) no-repeat;
+    background-size:cover;
+}
+.fifthP .midPhoto img{
+    width: 1.2rem;
+    height: 1.65rem;
+    position: absolute;
+}
+.fifthP .midPhoto img.logoImg{
+    width: 1.54rem;
+    height: 0.48rem;
+}
+.fifthP .midPhoto img.top2{
+    top:0.7rem;
+}
+.fifthP .midPhoto img.top7{
+    top:1.9rem;
+}
+.fifthP .midPhoto img.logo1{
+    left: 5.2rem;
+    top:1.3rem;
+}
+.fifthP .midPhoto img.logo2{
+    left: 4rem;
+    top:2.5rem;
+}
+.fifthP .midPhoto img.logo3{
+    left: 6.4rem;
+    top:2.5rem;
+}
+.fifthP .bottomList li{
+    position: absolute;
+    top:4.5rem;
+    width: 2.18rem;
+}
+.fifthP .groupName li{
+    position: absolute;
+    width: 2.18rem;
+}
+.fifthP .groupName .team{
+    top:0.6rem;
+    left:2rem;
+}
+.fifthP .groupName .counselor{
+    top:0.3rem;
+    left:9.2rem;
+    width:1rem;
+    line-height: 0.4rem;
+}
+.fifthP .groupName .investor{
+    top:3.4rem;
+    left:5.5rem;
+}
+.footer {
+    height: 620px;
+    position: relative;
+    background: #333335;
+}
+.footer .topCon{
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    top:15%;
+    left: 50%;
+    margin-left: -25%;
+    text-align: center;
+}
+.footer .topCon .title{
+    color: #ffffff;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+}
+.footer .topCon .tible2{
+    width: 5.11rem;
+    height:0.21rem;
+}
+.footer .imgList{
+    position: absolute;
+    width: 90%;
+    top:35%;
+    left: 50%;
+    margin-left: -37%;
+    /*padding: 0 5%;*/
+}
+.footer .imgList li{
+    float: left;
+    width: 2.5rem;
+    height:3rem;
+    margin-right: 1.5rem;
+}
+.footer .imgList li img{
+    width: 2.5rem;
+    height:3rem;
+}
+.footer .descript{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 1rem;
+    background: #010204;
+    color: #ffffff;
+    font-size: 0.16rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.navPoint{
+    position: fixed;
+    top:50%;
+    right:0.5rem;
+    margin-top: -2rem;
+    z-index: 999;
+}
+.navPoint li{
+    cursor:pointer;
+    width: 0.2rem;
+    height: 0.2rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    margin:0.1rem;
+}
+.navPoint li.clicked{
+    background: #ba9643;
+}
